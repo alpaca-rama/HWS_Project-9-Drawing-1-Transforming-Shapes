@@ -35,7 +35,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Flower(petalOffset: petalOffset, petalWidth: petalWidth)
-                .fill(.red, style: FillStyle(eoFill: true))
+                .fill(.indigo, style: FillStyle(eoFill: true))
             
             Text("Offset")
             Slider(value: $petalOffset, in: -40...40)
